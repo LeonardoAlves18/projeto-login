@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <main>
+            <section id="login">
+                <div id="imagem">
+
+                </div>
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <p>Seja Bem-vindo realize o login para poder fazer suas configurações de ambiente personalizadas.</p>
+                    <form action="cadrasto.php" autocomplete="on">
+                        <div class="linhas">
+                            <span class="material-symbols-outlined">search</span>
+                            <input type="email" name="email" id="iemail" required placeholder="Digite seu email" minlength="10" maxlength="20">
+                            <label for="iemail">Email</label>
+                        </div>
+                        <div class="linhas">
+                            <span class="material-symbols-outlined">search</span>
+                            <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha" minlength="10" maxlength="20">
+                            <label for="isenha">Senha</label>
+                        </div>
+                        <input type="submit" value="Confirmar">
+                        <a href="#" id="botao">Esqueci a senha<span class="material-symbols-outlined">email</span></a>
+                    </form>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
